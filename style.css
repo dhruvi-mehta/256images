@@ -21,7 +21,7 @@ img {
 
 #text{
   
-  font-size:35pt;
+  font-size:20pt;
   font-family: GlyphWorld;
   line-height: 30px;
   color:black;
@@ -29,15 +29,16 @@ img {
   direction: flex; 
   flex-direction: row;
   align-items: center;
+  padding: 20px;
 
 }
 
 .title{
-    margin-top: 400px;
-    margin-left: auto;
+    margin-top: 5%;
+    margin-left:450px;
     margin-right: auto;
     width: 18em;
-    font-size: 38pt;
+    font-size: 20pt;
     display: fixed;
     text-align: center;
 }
@@ -86,11 +87,11 @@ img {
   }
 
   .clear{
-    font-size: 25px;
+    font-size: 10px;
 }
 
   .shuffle{
-    font-size: 25px;
+    font-size: 10px;
   }
 
 
