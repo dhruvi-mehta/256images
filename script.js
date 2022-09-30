@@ -1,5 +1,8 @@
 let canvas = document.querySelector("#canvas");
 
+let i = 0;
+
+
 canvas.addEventListener("click", function (event) {
 
   console.log("clicking the canvas");
@@ -133,9 +136,12 @@ canvas.addEventListener("click", function (event) {
                       '256/image254.jpeg','256/image255.jpeg',
                       '256/image256.jpeg',
                     ); 
-
-  let currentArt = art[Math.floor(Math.random() * art.length)];
-  var divsize = 100;
+  // let i = 1;
+  let currentArt = art[i];
+  i = i + 1;
+  // let currentArt = art[Math.floor(Math.random() * art.length)];
+  console.log(currentArt);
+  var divsize = 5;
 
   var posx = (Math.random() * window.innerWidth - divsize).toFixed();
   var posy = (Math.random() * window.innerHeight - divsize).toFixed();
