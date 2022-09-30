@@ -15,9 +15,9 @@ img {
   transition: transform .7s ease-in-out;
 }
 
-/*img:hover {
+img:hover {
   transform: rotate(360deg);
-}*/
+}
 
 #text{
   
@@ -32,6 +32,7 @@ img {
   padding: 20px;
 
 }
+
 
 .title{
     margin-top: 5%;
